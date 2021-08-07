@@ -1,370 +1,521 @@
+<!--Author: Template Stock
+Author URL: http://templatestock.co
+-->
 <!DOCTYPE html>
-<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
-<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js" lang="en">
-<!--<![endif]-->
+<html>
 <head>
-<meta charset="utf-8"/>
-<!-- Set the viewport width to device width for mobile -->
-<meta name="viewport" content="width=device-width"/>
-<title>Studio Francesca - Premium Theme by WowThemesNet</title>
-<!-- CSS Files-->
-<link rel="stylesheet" href="stylesheets/style.css">
-
-<link rel="stylesheet" href="stylesheets/skins/blue.css">
-<!-- skin color -->
-<link rel="stylesheet" href="stylesheets/responsive.css">
-<!-- IE Fix for HTML5 Tags -->
-<!--[if lt IE 9]>
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
+<title>Above Free Responsive Template | Template Stock</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Onepage Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css'/>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />	    
+	    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+ <script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+			});
+		});
+	</script>
 </head>
 <body>
-<!-- HIDDEN PANEL 
-================================================== -->
-<div id="panel">
-	<div class="row">
-		<div class="twelve columns">
-			<img src="http://www.wowthemes.net/demo/studiofrancesca/images/info.png" class="pics" alt="info">
-			<div class="infotext">
-				 Thank you for visiting my theme! Replace this with your message to visitors.
+<div class="header" id="head">	
+      <div class="container"> 
+         <div class="header-top">
+      		 <div class="logo">
+				<a href="index.html"><img src="images/logo.png" alt=""/></a>
+			 </div>
+		   <div class="top-menu">
+		   	<span class="menu"> </span>
+			<ul>
+			 	<nav class="cl-effect-5">
+				<li><a class="active" href="index.html"><span data-hover="Home">home</span></a></li>
+				<li><a href="#about" class="scroll"><span data-hover="about">about</span></a></li>
+				<li><a href="#work" class="scroll"><span data-hover="work"><span>work</span></a></li>
+				<li><a href="#services" class="scroll"><span data-hover="services">services</span></a></li>
+				<li><a href="#contact" class="scroll"><span data-hover="contact">contact</span></a></li>
+				</nav>
+			 </ul>
+			 </div>
+			 <!--script-nav-->
+		 <script>
+		 $("span.menu").click(function(){
+		 $(".top-menu ul").slideToggle("slow" , function(){
+		 });
+		 });
+		 </script>
+			<div class="clearfix"></div>
+		 </div>  
+		  <div class="index-banner">
+       	   <div class="wmuSlider example1">
+			   <div class="wmuSliderWrapper">
+				   <article style="position: absolute; width: 100%; opacity: 0;"> 
+				   	<div class="banner-wrap">
+				   	       	<div class="banner_center">
+				   		 		<h1>hello world,</h1> 
+				   		 		<h2>i am <span>graphic & web designer</span></h2>
+				   		 		<h2>from morocco</h2>
+				   		 		</div>
+				   		 </div>
+					</article>
+				   <article style="position: relative; width: 100%; opacity: 1;"> 
+				   	   	<div class="banner-wrap">
+				   	      <div class="banner_center">
+				   		 		<h1>Content here,</h1> 
+				   		 		<h2>Lorem <span>graphic &  designer</span></h2>
+				   		 		<h2>Contrary</h2>
+				   		 		</div>
+				   		  </div>
+				   </article>
+				   <article style="position: absolute; width: 100%; opacity: 0;">
+				   	  	<div class="banner-wrap">
+				   	       <div class="banner_center">
+				   		 		<h1>Lorem Ipsum ,</h1> 
+				   		 		<h2>Contrary to <span>&  designer</span></h2>
+				   		 		<h2>reproduced below</h2>
+				   		 		</div>
+				   		 </div>
+					 </article>
+				 </div>
+				
+            </div>
+            <script src="js/jquery.wmuSlider.js"></script> 
+			  <script>
+       			$('.example1').wmuSlider();         
+   		     </script> 	           	      
+      </div>
+	 </div>     
+	</div>
+	<div class="content">
+		<div class="about-section" id="about" id="about">
+	<div class="container">
+		<div class="about-header">
+			<h3>about</h3>
+			<div class="about-imag">
+			<img src="images/pic-9.jpg" alt=""/>
+			</div>
+			<div class="about-text">
+					<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio.</p> 
+					<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. . </p>
+			</div>
+			<div class="clearfix"></div>
+			</div>
+			<div class="about-sectiongrids">
+				<div class="col-md-6 about-leftgrid">
+					<div class="polls">
+					<div class="poll">
+						<div class="poll-desc">
+							<h4>Graphic Design</h4>
+						</div>
+						<div class="percentage">
+							<p>75%</p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="skills">
+			              	<div style="width:75%"> </div>
+	                      </div>
+	                      </div>
+	                      <div class="polls">
+					<div class="poll">
+						<div class="poll-desc">
+							<h4>Ui/Ux</h4>
+						</div>
+						<div class="percentage">
+							<p>75%</p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="skills">
+			              	<div style="width:75%"> </div>
+	                      </div>
+	                      </div>
+	                      <div class="polls">
+					<div class="poll">
+						<div class="poll-desc">
+							<h4>Logo Design</h4>
+						</div>
+						<div class="percentage">
+							<p>75%</p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="skills">
+			              	<div style="width:75%"> </div>
+	                      </div>
+	                      </div>
+	                      <div class="polls">
+					<div class="poll">
+						<div class="poll-desc">
+							<h4>Html/Css</h4>
+						</div>
+						<div class="percentage">
+							<p>75%</p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="skills">
+			              	<div style="width:75%"> </div>
+	                      </div>
+	                      </div>
+
+	</div>
+	<div class="col-md-6 about-rightgrid">
+		<div class="polls">
+					<div class="poll">
+						<div class="poll-desc">
+							<h4>web design</h4>
+						</div>
+						<div class="percentage">
+							<p>75%</p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="skills">
+			              	<div style="width:75%"> </div>
+	                      </div>
+	                      </div>
+	                      <div class="polls">
+					<div class="poll">
+						<div class="poll-desc">
+							<h4>branding</h4>
+						</div>
+						<div class="percentage">
+							<p>75%</p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="skills">
+			              	<div style="width:75%"> </div>
+	                      </div>
+	                      </div>
+	                      <div class="polls">
+					<div class="poll">
+						<div class="poll-desc">
+							<h4>Photography</h4>
+						</div>
+						<div class="percentage">
+							<p>75%</p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="skills">
+			              	<div style="width:75%"> </div>
+	                      </div>
+	                      </div>
+	                      <div class="polls">
+					<div class="poll">
+						<div class="poll-desc">
+							<h4>Jquery</h4>
+						</div>
+						<div class="percentage">
+							<p>75%</p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="skills">
+			              	<div style="width:75%"> </div>
+	                      </div>
+	                      </div>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+	<div class="arrow1">
+	<a href="#work" class="scroll"><img src="images/arrow1.png" alt=""/></a>
+					</div>
+	</div>
+	</div>
+	<!-- about-section-ends -->
+	<div class="works-section" id="work" id="work">
+	   <div class="works-header">
+			<h3>works</h3>
+				<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. </p>
+		</div>
+		<div class="portfolio-section-bottom-row" id="portfolio">
+			<div class="container">
+				
+						<script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
+					<script type="text/javascript">
+						$(document).ready(function () {
+							$('#horizontalTab').easyResponsiveTabs({
+								type: 'default', //Types: default, vertical, accordion           
+								width: 'auto', //auto or any width like 600px
+								fit: true   // 100% fit in a container
+							});
+						});
+						
+					</script>
+						<link rel="stylesheet" href="css/swipebox.css">
+							<script src="js/jquery.swipebox.min.js"></script> 
+								<script type="text/javascript">
+									jQuery(function($) {
+										$(".swipebox").swipebox();
+									});
+								</script>
+							<!-- Portfolio Ends Here -->
+						<div class="sap_tabs">
+							<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
+								  <ul class="resp-tabs-list">
+									  <li class="resp-tab-item" aria-controls="tab_item-0" role="tab"><span>All</span></li>
+									  <li class="resp-tab-item" aria-controls="tab_item-1" role="tab"><span>Branding</span></li>
+									  <li class="resp-tab-item" aria-controls="tab_item-2" role="tab"><span>Print</span></li>
+									  <li class="resp-tab-item" aria-controls="tab_item-3" role="tab"><span>Web design</span></li>
+									  <li class="resp-tab-item" aria-controls="tab_item-4" role="tab"><span>Photography</span></li>
+									  <div class="clearfix"></div>
+								  </ul>	
+								<div id="portfoliolist">
+									<div class="resp-tabs-container">
+										<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-0">
+											<div class="tab_img">
+													<div class="col-md-3 img-top grid_box">
+														<a href="images/pic-1.jpg" class="swipebox"  title="Image Title">
+															  <img src="images/pic-1.jpg" class="img-responsive" alt="">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													<div class="col-md-3 img-top grid_box">
+														<a href="images/pic-2.jpg" class="swipebox"  title="Image Title">
+															  <img src="images/pic-2.jpg" class="img-responsive" alt="">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													<div class="col-md-3 img-top grid_box">
+														<a href="images/pic-3.jpg" class="swipebox"  title="Image Title">
+															  <img src="images/pic-3.jpg" class="img-responsive" alt="">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													<div class="col-md-3 img-top grid_box">
+														<a href="images/pic-4.jpg" class="swipebox"  title="Image Title">
+															  <img src="images/pic-4.jpg" class="img-responsive" alt="">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													<div class="col-md-3 img-top grid_box">
+														<a href="images/pic-5.jpg" class="swipebox"  title="Image Title">
+															  <img src="images/pic-5.jpg" class="img-responsive" alt="">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													<div class="col-md-3 img-top grid_box">
+														<a href="images/pic-6.jpg" class="swipebox"  title="Image Title">
+															  <img src="images/pic-6.jpg" class="img-responsive" alt="">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													<div class="col-md-3 img-top grid_box">
+														<a href="images/pic-7.jpg" class="swipebox"  title="Image Title">
+															  <img src="images/pic-7.jpg" class="img-responsive" alt="">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													<div class="col-md-3 img-top grid_box">
+														<a href="images/pic-8.jpg" class="swipebox"  title="Image Title">
+															  <img src="images/pic-8.jpg" class="img-responsive" alt="">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													<div class="clearfix"></div>	
+											</div>
+																				 
+										</div>
+										<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-1">
+											<div class="tab_img">
+												<div class="col-md-3 img-top grid_box">
+														<a href="images/pic-5.jpg" class="swipebox"  title="Image Title">
+															  <img src="images/pic-5.jpg" class="img-responsive" alt="">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													<div class="col-md-3 img-top grid_box">
+														<a href="images/pic-6.jpg" class="swipebox"  title="Image Title">
+															  <img src="images/pic-6.jpg" class="img-responsive" alt="">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													<div class="col-md-3 img-top grid_box">
+														<a href="images/pic-7.jpg" class="swipebox"  title="Image Title">
+															  <img src="images/pic-7.jpg" class="img-responsive" alt="">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													<div class="col-md-3 img-top grid_box">
+														<a href="images/pic-8.jpg" class="swipebox"  title="Image Title">
+															  <img src="images/pic-8.jpg" class="img-responsive" alt="">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													
+													<div class="clearfix"></div>	
+											</div>	 	        					 
+										</div>
+										<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-2">
+											
+											<div class="tab_img">
+													<div class="col-md-3 img-top grid_box">
+														<a href="images/pic-2.jpg" class="swipebox"  title="Image Title">
+															  <img src="images/pic-2.jpg" class="img-responsive" alt="">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													<div class="col-md-3 img-top grid_box">
+														<a href="images/pic-3.jpg" class="swipebox"  title="Image Title">
+															  <img src="images/pic-3.jpg" class="img-responsive" alt="">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													<div class="col-md-3 img-top grid_box">
+														<a href="images/pic-4.jpg" class="swipebox"  title="Image Title">
+															  <img src="images/pic-4.jpg" class="img-responsive" alt="">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													
+														<div class="clearfix"></div>
+											</div>		        					 
+										</div>
+										<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-3">
+											<div class="tab_img">
+													<div class="col-md-3 img-top grid_box">
+														<a href="images/pic-1.jpg" class="swipebox"  title="Image Title">
+															  <img src="images/pic-1.jpg" class="img-responsive" alt="">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													<div class="col-md-3 img-top grid_box">
+														<a href="images/pic-2.jpg" class="swipebox"  title="Image Title">
+															  <img src="images/pic-2.jpg" class="img-responsive" alt="">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													
+														<div class="clearfix"></div>
+											</div>	
+										</div>
+										<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-4">
+											<div class="tab_img">
+													<div class="col-md-3 img-top grid_box">
+														<a href="images/pic-1.jpg" class="swipebox"  title="Image Title">
+															  <img src="images/pic-1.jpg" class="img-responsive" alt="">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													
+														<div class="clearfix"></div>
+											</div>	
+										</div>										
+									</div>	
+								</div>
+							</div>
+						</div>				
+ 
+				<div class="arrow">
+					<a href="#services" class="scroll"><img src="images/arrow.png" alt=""/></a>
+				</div>
 			</div>
 		</div>
 	</div>
-</div>
-<p class="slide">
-	<a href="#" class="btn-slide"></a>
-</p>
-<!-- HEADER
-================================================== -->
-<div class="row">
-	<div class="headerlogo four columns">
-		<div class="logo">
-			<a href="index.html">
-			<h4>Studio Francesca</h4>
-			</a>
-		</div>
-	</div>
-	<div class="headermenu eight columns noleftmarg">
-		<nav id="nav-wrap">
-		<ul id="main-menu" class="nav-bar sf-menu">
-			<li class="current">
-			<a href="index.html">Home</a>
-			<ul>
-				<li><a href="index2.html">Without slider</a></li>
-			</ul>
-			</li>
-			<li>
-			<a href="#">Portofolio</a>
-			<ul>
-				<li><a href="portofolio2.html">2 Columns</a></li>
-				<li><a href="portofolio3.html">3 Columns</a></li>
-				<li><a href="portofolio4.html">4 Columns</a></li>
-				<li><a href="portofoliodetail.html">Project Details</a></li>
-			</ul>
-			</li>
-			<li>
-			<a href="#">Blog</a>
-			<ul>
-				<li><a href="blogpage1.html">Blog page style 1</a></li>
-				<li><a href="blogpage2.html">Blog page style 2</a></li>
-				<li><a href="blogpage3.html">Blog page style 3</a></li>
-				<li><a href="blogsinglepost.html">Single post</a></li>
-			</ul>
-			</li>
-			<li>
-			<a href="#">Pages</a>
-			<ul>
-				<li><a href="about.html">About us</a></li>
-				<li><a href="services.html">Services</a></li>
-			</ul>
-			</li>
-			<li>
-			<a href="#">Features</a>
-			<ul>
-				<li><a href="columns.html">Columns</a></li>
-				<li><a href="elements.html">Elements</a></li>
-				<li><a href="typography.html">Typography</a></li>
-			</ul>
-			</li>
-			<li>
-			<a href="contact.html">Contact</a>
-			</li>
-		</ul>
-		</nav>
-	</div>
-</div>
-<div class="clear">
-</div>
-<!-- SLIDER 
-================================================== -->
-<div id="ei-slider" class="ei-slider">
-	<ul class="ei-slider-large">
-		<li>
-		<img src="http://www.wowthemes.net/demo/studiofrancesca/images/slideshow/large/2.jpg" alt="image01" class="responsiveslide">
-		<div class="ei-title">
-			<h2>Dare to</h2>
-			<h3>Dream</h3>
-		</div>
-		</li>
-		<li>
-		<img src="http://placehold.it/1400x500/222" alt="image02" class="responsiveslide">
-		<div class="ei-title">
-			<h2>Dare to</h2>
-			<h3>Hope</h3>
-		</div>
-		</li>
-		<li>
-		<img src="http://placehold.it/1400x500/222" alt="image03" class="responsiveslide">
-		<div class="ei-title">
-			<h2>Dare to</h2>
-			<h3>Smile</h3>
-		</div>
-		</li>
-		<li>
-		<img src="http://placehold.it/1400x500/222" alt="image04" class="responsiveslide">
-		<div class="ei-title">
-			<h2>Dare to</h2>
-			<h3>ask</h3>
-		</div>
-		</li>
-		<li>
-		<img src="http://placehold.it/1400x500/222" alt="image05" class="responsiveslide">
-		<div class="ei-title">
-			<h2>Dare to</h2>
-			<h3>refuse</h3>
-		</div>
-		</li>
-		<li>
-		<img src="http://placehold.it/1400x500/222" alt="image06" class="responsiveslide">
-		<div class="ei-title">
-			<h2>Dare to</h2>
-			<h3>give</h3>
-		</div>
-		</li>
-		<li>
-		<img src="http://placehold.it/1400x500/222" alt="image07" class="responsiveslide">
-		<div class="ei-title">
-			<h2>Dare to</h2>
-			<h3>receive</h3>
-		</div>
-		</li>
-		<li>
-		<img src="http://placehold.it/1400x500/222" alt="image08" class="responsiveslide">
-		<div class="ei-title">
-			<h2>Dare to </h2>
-			<h3>Love</h3>
-		</div>
-		</li>
-		<li>
-		<img src="http://placehold.it/1400x500/222" alt="image09" class="responsiveslide">
-		<div class="ei-title">
-			<h2>Dare to</h2>
-			<h3>Forgive</h3>
-		</div>
-		</li>
-		<li>
-		<img src="http://placehold.it/1400x500/222" alt="image10" class="responsiveslide">
-		<div class="ei-title">
-			<h2>Stand up & </h2>
-			<h3>Live</h3>
-		</div>
-		</li>
-	</ul>
-	<!-- slider-thumbs -->
-	<ul class="ei-slider-thumbs">
-		<li class="ei-slider-element">Current</li>
-		<li><a href="#">Slide 1</a><img src="http://placehold.it/150x59/444" class="slideshowthumb" alt="thumb01"/></li>
-		<li><a href="#">Slide 2</a><img src="http://placehold.it/150x59/444" class="slideshowthumb" alt="thumb02"/></li>
-		<li><a href="#">Slide 3</a><img src="http://placehold.it/150x59/444" class="slideshowthumb" alt="thumb03"/></li>
-		<li><a href="#">Slide 4</a><img src="http://placehold.it/150x59/444" class="slideshowthumb" alt="thumb04"/></li>
-		<li><a href="#">Slide 5</a><img src="http://placehold.it/150x59/444" class="slideshowthumb" alt="thumb05"/></li>
-		<li><a href="#">Slide 6</a><img src="http://placehold.it/150x59/444" class="slideshowthumb" alt="thumb06"/></li>
-		<li><a href="#">Slide 7</a><img src="http://placehold.it/150x59/444" class="slideshowthumb" alt="thumb07"/></li>
-		<li><a href="#">Slide 8</a><img src="http://placehold.it/150x59/444" class="slideshowthumb" alt="thumb08"/></li>
-		<li><a href="#">Slide 9</a><img src="http://placehold.it/150x59/444" class="slideshowthumb" alt="thumb09"/></li>
-		<li><a href="#">Slide 10</a><img src="http://placehold.it/150x59/444" class="slideshowthumb" alt="thumb10"/></li>
-	</ul>
-</div>
-<div class="minipause">
-</div>
-<!-- SUBHEADER
-================================================== -->
-<div id="subheader">
-	<div class="row">
-		<div class="twelve columns">
-			<p class="text-center">
-				 "Vision is the art of seeing what is invisible to others" - Jonathan Swift
-			</p>
-		</div>
-	</div>
-</div>
-<!-- ANIMATED COLUMNS 
-================================================== -->
-<div class="row">
-	<div class="twelve columns">
-		<ul class="ca-menu">
-			<li>
-			<a href="#">
-			<span class="ca-icon"><i class="fa fa-heart"></i></span>
-			<div class="ca-content">
-				<h2 class="ca-main">Responsive<br/> Design</h2>
-				<h3 class="ca-sub">Across all major devices</h3>
+	<!-- portfolio-section-ends -->
+	<div class="services-section" id="services">
+			<div class="container"> 
+			<div class="services-header">
+				<h3>services</h3>
+					<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. </p>
 			</div>
-			</a>
-			</li>
-			<li>
-			<a href="#">
-			<span class="ca-icon"><i class="fa fa-bullhorn"></i></span>
-			<div class="ca-content">
-				<h2 class="ca-main">Friendly<br/> Documentation</h2>
-				<h3 class="ca-sub">Straight to the point</h3>
-			</div>
-			</a>
-			</li>
-			<li>
-			<a href="#">
-			<span class="ca-icon"><i class="fa fa-user"></i></span>
-			<div class="ca-content">
-				<h2 class="ca-main">Alternate<br/> Home Pages</h2>
-				<h3 class="ca-sub">Full slider, boxed or none</h3>
-			</div>
-			</a>
-			</li>
-			<li>
-			<a href="#">
-			<span class="ca-icon"><i class="fa fa-camera"></i></span>
-			<div class="ca-content">
-				<h2 class="ca-main">Filterable<br/> Portofolio</h2>
-				<h3 class="ca-sub">Isotop & PrettyPhoto</h3>
-			</div>
-			</a>
-			</li>
-		</ul>
-	</div>
-</div>
-<!-- CONTENT 
-================================================== -->
-<div class="row">
-	<div class="twelve columns">
-		<div class="centersectiontitle">
-			<h4>What we do</h4>
+			<div class="services-sectiongrids">
+				<div class="col-md-4 services-grid">
+					<img src="images/img1.png" alt=""/>
+					<h4>webdesign</h4>
+					<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</p>
+				</div>
+				<div class="col-md-4 services-grid">
+					<img src="images/img2.png" alt=""/>
+					<h4>print design</h4>
+					<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</p>
+				</div>
+				<div class="col-md-4 services-grid">
+					<img src="images/img3.png" alt=""/>
+					<h4>web development</h4>
+					<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</p>
+				</div>
+				<div class="clearfix"></div>
+				<div class="arrow1">
+					<a href="#contact" class="scroll"><img src="images/arrow1.png" alt=""/></a>
+					</div>
 		</div>
-	</div>
-	<div class="four columns">
-		<h5>Photography</h5>
-		<p>
-			 Swine short ribs meatball irure bacon nulla pork belly cupidatat meatloaf cow. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.
-		</p>
-		<p>
-			<a href="#" class="readmore">Learn more</a>
-		</p>
-	</div>
-	<div class="four columns">
-		<h5>Artwork</h5>
-		<p>
-			 Swine short ribs meatball irure bacon nulla pork belly cupidatat meatloaf cow. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.
-		</p>
-		<p>
-			<a href="#" class="readmore">Learn more</a>
-		</p>
-	</div>
-	<div class="four columns">
-		<h5>Logos</h5>
-		<p>
-			 Swine short ribs meatball irure bacon nulla pork belly cupidatat meatloaf cow. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.
-		</p>
-		<p>
-			<a href="#" class="readmore">Learn more</a>
-		</p>
-	</div>
-</div>
-<div class="hr">
-</div>
-<!-- TESTIMONIALS 
-================================================== -->
-<div class="row">
-	<div class="twelve columns">
-		<div id="testimonials">
-			<blockquote>
-				<p>
-					 "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis." <cite>Martin - NY</cite>
-				</p>
-			</blockquote>
-			<blockquote>
-				<p>
-					 "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco." <cite>Sandra - LA</cite>
-				</p>
-			</blockquote>
-			<blockquote>
-				<p>
-					 "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco." <cite>Jason - MA</cite>
-				</p>
-			</blockquote>
 		</div>
-		<!--end testimonials-->
+		</div>
+		<!-- services-section-ends -->
 	</div>
+	<div class="footer-section" id="contact" id="contact">
+			<div class="container"> 
+			<div class="contact-header">
+				<h3> contact</h3>
+					<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. </p>
+			</div>
+			<div class="social-icon">
+				<a href="#"><i class="icon1"></i></a>
+				<a href="#"><i class="icon2"></i></a>
+				<a href="#"><i class="icon3"></i></a>
+				<a href="#"><i class="icon4"></i></a>
+				<a href="#"><i class="icon5"></i></a>
+				<a href="#"><i class="icon6"></i></a>
+				<a href="#"><i class="icon7"></i></a>
+				<a href="#"><i class="icon8"></i></a>
+			</div>
+			<div class="contact">
+				<form>
+					<div class="col-md-4 contactgrid">
+						<input type="text" class="text" value=" name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = ' name';}">
+					</div>
+					<div class="col-md-4 contactgrid">
+						<input type="text" class="text" value="email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'email';}">
+					</div>
+					<div class="col-md-4 contactgrid">
+						<input type="text" class="text" value="phone" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'phone';}">
+					</div>
+					<div class="col-md-8 contactgrid1">
+						<textarea onfocus="if(this.value == 'Your Message') this.value='';" onblur="if(this.value == '') this.value='Your Message';" >Your Message</textarea>
+					</div>
+					<div class="col-md-4 contactgrid2">
+						<input type="submit" value="[send message]">
+					</div>
+				   <div class="clearfix"></div>
+				</form>
+			</div>
+			<div class="footer-bottom">
+
+					<p>&copy; 2015 Onepage . All rights  Reserved | Template by<a href="http://templatestock.com" target="target_blank">Template Stock</a></p>
+
+					</div>
+					<script type="text/javascript">
+						$(document).ready(function() {
+							/*
+							var defaults = {
+					  			containerID: 'toTop', // fading element id
+								containerHoverID: 'toTopHover', // fading element hover id
+								scrollSpeed: 1200,
+								easingType: 'linear' 
+					 		};
+							*/
+							
+							$().UItoTop({ easingType: 'easeOutQuart' });
+							
+						});
+					</script>
+				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 </div>
 
-<!-- FOOOTER 
-================================================== -->
-<div id="footer">
-	<footer class="row">
-	<p class="back-top floatright">
-		<a href="#top"><span></span></a>
-	</p>
-	<div class="four columns">
-		<h1>ABOUT US</h1>
-		 Our goal is to keep clients satisfied!
+		</div>		
 	</div>
-	<div class="four columns">
-		<h1>GET SOCIAL</h1>
-		<a class="social facebook" href="#"></a>
-		<a class="social twitter" href="#"></a>
-		<a class="social deviantart" href="#"></a>
-		<a class="social flickr" href="#"></a>
-		<a class="social dribbble" href="#"></a>
-	</div>
-	<div class="four columns">
-		<h1 class="newsmargin">NEWSLETTER</h1>
-		<div class="row collapse newsletter floatright">
-			<div class="ten mobile-three columns">
-				<input type="text" class="nomargin" placeholder="Enter your e-mail address...">
-			</div>
-			<div class="two mobile-one columns">
-				<a href="#" class="postfix button expand">GO</a>
-			</div>
-		</div>
-	</div>
-	</footer>
-</div>
-<div class="copyright">
-	<div class="row">
-		<div class="six columns">
-			 &copy;<span class="small"> Copyright Your Agency Name</span>
-		</div>
-		<div class="six columns">
-			<span class="small floatright">Design by <a target="_blank" href="http://www.wowthemes.net/premium-themes-templates/">WowThemesNet</a> </span>
-		</div>
-	</div>
-</div>
-<!-- JAVASCRIPTS 
-================================================== -->
-<!-- Javascript files placed here for faster loading -->
-<script src="javascripts/foundation.min.js"></script>   
-<script src="javascripts/jquery.easing.1.3.js"></script>
-<script src="javascripts/elasticslideshow.js"></script>
-<script src="javascripts/jquery.carouFredSel-6.0.5-packed.js"></script>
-<script src="javascripts/jquery.cycle.js"></script>
-<script src="javascripts/app.js"></script>
-<script src="javascripts/modernizr.foundation.js"></script>
-<script src="javascripts/slidepanel.js"></script>
-<script src="javascripts/scrolltotop.js"></script>
-<script src="javascripts/hoverIntent.js"></script>
-<script src="javascripts/superfish.js"></script>
-<script src="javascripts/responsivemenu.js"></script>
+	
+	
 </body>
 </html>
